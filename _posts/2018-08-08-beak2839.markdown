@@ -9,7 +9,7 @@ description: 알고리즘 문제풀이 - 백준 2839번 설탕 배달
 2. 남은 설탕들을 3킬로 자루에 모두 담을 수 없다면 5킬로 자루를 하나씩 해체하여 계산한다.
 3. 계산된 자루의 갯수를 합한다.
 
-{% highlight javascript %}
+{% highlight ruby %}
 var fs = require('fs');
 var n = fs.readFileSync('/dev/stdin').toString()*1;
 var five = Math.floor(n/5);
